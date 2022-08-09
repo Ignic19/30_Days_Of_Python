@@ -56,6 +56,49 @@ print(it_companies[1:-1])
 it_companies.remove('#')
 print(it_companies)
 # 22. Remove the middle IT company or companies from the list
+del it_companies[4]
+print(it_companies)
 # 23. Remove the last IT company from the list
+del it_companies[-1]
+print(it_companies)
 # 24. Remove all IT companies from the list
+del it_companies[:]
+print(it_companies)
 # 25. Destroy the IT companies list
+
+# 26.Join the following lists:
+
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+print(front_end)
+print(back_end)
+
+# 27. After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack. Then insert Python and SQL after Redux.
+
+full_stack = front_end.copy() + back_end.copy()
+print(full_stack)
+
+print('-------------------Exercises: Level 2--------------------')
+
+# 1. The following is a list of 10 students ages:
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+edades_ordenadas = ages.sort()
+print(ages)
+
+# - Sort the list and find the min and max age
+min_val = min(ages)
+print(min_val)
+max_val = max(ages)
+print(max_val)
+
+# - Add the min age and the max age again to the list
+
+
+# - Find the median age (one middle item or two middle items divided by two)
+# - Find the average age (sum of all items divided by their number )
+# - Find the range of the ages (max minus min)
+# - Compare the value of (min - average) and (max - average), use _abs()_ method
+
+# 1. Find the middle country(ies) in the [countries list](https://github.com/Asabeneh/30-Days-Of-Python/tree/master/data/countries.py)
+# 1. Divide the countries list into two equal lists if it is even if not one more country for the first half.
+# 1. ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
