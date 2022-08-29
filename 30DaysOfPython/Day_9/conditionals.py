@@ -48,7 +48,7 @@ a = (input("Ingresar el valor de a: "))
 b = (input("Ingresar el valor de b: "))
 if a > b:
     print("a es mayor que b")
-else:
+elif b > a:
     print("b es mayor que a")
 else:
     print("Tienen el mismo valor")
