@@ -44,32 +44,44 @@ if a is less b return a is smaller than b, else a is equal to b. Output:
     Enter number two: 3
     4 is greater than 3
 """
-a = (input("Ingresar el valor de a: "))
-b = (input("Ingresar el valor de b: "))
-if a > b:
-    print("a es mayor que b")
-elif b > a:
-    print("b es mayor que a")
-else:
-    print("Tienen el mismo valor")
+# a = (input("Ingresar el valor de a: "))
+# b = (input("Ingresar el valor de b: "))
+# if a > b:
+#     print("a es mayor que b")
+# elif b > a:
+#     print("b es mayor que a")
+# else:
+#     print("Tienen el mismo valor")
 
     ### Exercises: Level 2
 
-   # 1. Write a code which gives grade to students according to theirs scores:
+# print("1. Write a code which gives grade to students according to theirs scores : 80-100, A; 70-89, B; 60-69, C; 50-59, D; 0-49, F")
+
+# nota = int(input("Ingrese calificación: "))
+# if nota >= 80 and nota <= 100:
+#     print("Está en grado A")
+# elif nota >= 70 and nota <= 89:
+#     print("Está en grado B")
+# elif nota >= 60 and nota <= 69:
+#     print("Está en grado C")
+# elif nota >= 50 and nota <= 59:
+#     print("Está en grado D")
+# elif nota >= 0 and nota <= 49:
+#     print("Está en grado F") 
+
 """
-        sh
-        80-100, A
-        70-89, B
-        60-69, C
-        50-59, D
-        0-49, F
-     
- 1. Check if the season is Autumn, Winter, Spring or Summer. If the user input is:
+1. Check if the season is Autumn, Winter, Spring or Summer. If the user input is:
     September, October or November, the season is Autumn.
     December, January or February, the season is Winter.
     March, April or May, the season is Spring
     June, July or August, the season is Summer
 """
+
+mes = input("Ingresa mes del año: ")
+if mes == diciembre:
+    print("winter")
+elif mes == noviembre:
+    print("no corresponde")
 
 # 2.  The following list contains some fruits:
 """
