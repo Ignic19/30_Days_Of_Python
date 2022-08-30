@@ -69,19 +69,29 @@ if a is less b return a is smaller than b, else a is equal to b. Output:
 # elif nota >= 0 and nota <= 49:
 #     print("Está en grado F") 
 
-"""
-1. Check if the season is Autumn, Winter, Spring or Summer. If the user input is:
-    September, October or November, the season is Autumn.
-    December, January or February, the season is Winter.
-    March, April or May, the season is Spring
-    June, July or August, the season is Summer
-"""
+
+# 1. Check if the season is Autumn, Winter, Spring or Summer. If the user input is:
+#     September, October or November, the season is Autumn.
+#     December, January or February, the season is Winter.
+#     March, April or May, the season is Spring
+#     June, July or August, the season is Summer
+
+otoño = ["September", "October", "November"]
+invierno = ["December", "January", "February"]
+primavera = ["March", "April", "May"]
+verano = ["June", "July", "August"]
 
 mes = input("Ingresa mes del año: ")
-if mes == diciembre:
-    print("winter")
-elif mes == noviembre:
-    print("no corresponde")
+if mes in otoño:
+    print("Este mes pertenece a la estación de otoño")
+elif mes in invierno:
+    print("Este mes pertenece a la estación de invierno")
+elif mes in primavera:
+    print("Este mes pertenece a la estación de primavera")
+elif mes in verano:
+    print("Este mes pertenece a la estación de verano")
+else:
+    print("Pertenece a otra estación del año.")
 
 # 2.  The following list contains some fruits:
 """
