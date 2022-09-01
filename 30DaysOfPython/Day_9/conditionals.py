@@ -76,37 +76,40 @@ if a is less b return a is smaller than b, else a is equal to b. Output:
 #     March, April or May, the season is Spring
 #     June, July or August, the season is Summer
 
-otoño = ["September", "October", "November"]
-invierno = ["December", "January", "February"]
-primavera = ["March", "April", "May"]
-verano = ["June", "July", "August"]
+# otoño = ["September", "October", "November"]
+# invierno = ["December", "January", "February"]
+# primavera = ["March", "April", "May"]
+# verano = ["June", "July", "August"]
 
-mes = input("Ingresa mes del año: ")
-if mes in otoño:
-    print("Este mes pertenece a la estación de otoño")
-elif mes in invierno:
-    print("Este mes pertenece a la estación de invierno")
-elif mes in primavera:
-    print("Este mes pertenece a la estación de primavera")
-elif mes in verano:
-    print("Este mes pertenece a la estación de verano")
-else:
-    print("Pertenece a otra estación del año.")
+# mes = input("Ingresa mes del año: ")
+# if mes in otoño:
+#     print("Este mes pertenece a la estación de otoño")
+# elif mes in invierno:
+#     print("Este mes pertenece a la estación de invierno")
+# elif mes in primavera:
+#     print("Este mes pertenece a la estación de primavera")
+# elif mes in verano:
+#     print("Este mes pertenece a la estación de verano")
+# else:
+#     print("El mes Pertenece a otra estación del año.")
 
 # 2.  The following list contains some fruits:
-"""
-    ```sh
-    fruits = ['banana', 'orange', 'mango', 'lemon']
-    ```
-    If a fruit doesn't exist in the list add the fruit to the list and print the modified list. If the fruit exists print('That fruit already exist in the list') 
-"""
+# fruits = ['banana', 'orange', 'mango', 'lemon']
+
+#     # If a fruit doesn't exist in the list add the fruit to the list and print the modified list. 
+#     # If the fruit exists print('That fruit already exist in the list') 
+# nuevafruta = input("Ingrese el nombre de una fruta: ")
+# if nuevafruta in fruits:
+#     print("Su fruta está en el listado de frutas")
+# else:
+#     fruits.append(nuevafruta)
+# print(fruits)
 
     ### Exercises: Level 3
 
    # 1. Here we have a person dictionary. Feel free to modify it!
    
-"""py
-        person={
+person = {
     'first_name': 'Asabeneh',
     'last_name': 'Yetayeh',
     'age': 250,
@@ -117,8 +120,8 @@ else:
         'street': 'Space street',
         'zipcode': '02210'
     }
-    }
-"""
+}
+
 
      # * Check if the person dictionary has skills key, if so print out the middle skill in the skills list.
      # * Check if the person dictionary has skills key, if so check if the person has 'Python' skill and print out the result.
