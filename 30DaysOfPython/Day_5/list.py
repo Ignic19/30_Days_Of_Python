@@ -93,7 +93,6 @@ print(max_val)
 
 # - Add the min age and the max age again to the list
 
-
 # - Find the median age (one middle item or two middle items divided by two)
 # - Find the average age (sum of all items divided by their number )
 # - Find the range of the ages (max minus min)

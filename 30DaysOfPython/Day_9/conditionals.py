@@ -94,22 +94,23 @@ if a is less b return a is smaller than b, else a is equal to b. Output:
 #     print("El mes Pertenece a otra estación del año.")
 
 # 2.  The following list contains some fruits:
-# fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits = ['banana', 'orange', 'mango', 'lemon']
 
-#     # If a fruit doesn't exist in the list add the fruit to the list and print the modified list. 
-#     # If the fruit exists print('That fruit already exist in the list') 
-# nuevafruta = input("Ingrese el nombre de una fruta: ")
-# if nuevafruta in fruits:
-#     print("Su fruta está en el listado de frutas")
-# else:
-#     fruits.append(nuevafruta)
-# print(fruits)
+    # If a fruit doesn't exist in the list add the fruit to the list and print the modified list. 
+    # If the fruit exists print('That fruit already exist in the list') 
+nuevafruta = input("Ingrese el nombre de una fruta: ")
+if nuevafruta in fruits:
+    print("Su fruta está en el listado de frutas")
+else:
+    fruits.append(nuevafruta)
+print(fruits)
 
     ### Exercises: Level 3
 
    # 1. Here we have a person dictionary. Feel free to modify it!
    
-person = {
+"""py
+        person={
     'first_name': 'Asabeneh',
     'last_name': 'Yetayeh',
     'age': 250,
@@ -120,8 +121,8 @@ person = {
         'street': 'Space street',
         'zipcode': '02210'
     }
-}
-
+    }
+"""
 
      # * Check if the person dictionary has skills key, if so print out the middle skill in the skills list.
      # * Check if the person dictionary has skills key, if so check if the person has 'Python' skill and print out the result.

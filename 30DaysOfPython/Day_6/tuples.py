@@ -4,18 +4,23 @@
 
 # 1. Create an empty tuple
 tupla_vacia = ()
+
 # 2. Create a tuple containing names of your sisters and your brothers (imaginary siblings are fine)
 tupla_nombres_hermanos = ('Dylann', 'Isaias', 'Ashley', 'Antonella', 'Nicolas')
 print(tupla_nombres_hermanos)
+
 # 3. Join brothers and sisters tuples and assign it to siblings
 hermanos = tuple(tupla_nombres_hermanos)
 print(hermanos)
+
 # 4. How many siblings do you have?
 print(len(tupla_nombres_hermanos))
+
 # 5. Modify the siblings tuple and add the name of your father and mother and assign it to family_members
 padres = ('Rosa', 'Juan')
 familia = tupla_nombres_hermanos + padres
 print( familia)
+
 # ### Exercises: Level 2
 
 # 1. Unpack siblings and parents from family_members
