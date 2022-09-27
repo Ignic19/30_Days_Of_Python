@@ -33,7 +33,8 @@ x = int(input("Ingresa el radio de tu circulo: "))
 def _area_of_circle_():
     area_circle = 3.14 * x * x
     return area_circle
-print(_area_of_circle_())
+print("El área del circulo es:",(_area_of_circle_()))
+# print(_area_of_circle_())
 
 # 3. Write a function called add_all_nums which takes arbitrary number of arguments 
 # and sums all the arguments. Check if all the list items are number types. 
@@ -45,22 +46,45 @@ print(_area_of_circle_())
 def _convert_c_to_f_(c):
     fahrenheit = (c * 9/5) + 32
     return fahrenheit
+print("40°C a F°: ")
 print(_convert_c_to_f_(40))
 
 # 5. Write a function called check-season, it takes a month parameter and returns the 
 # season: Autumn, Winter, Spring or Summer.
-otoño = ["September", "October", "November"]
-invierno = ["December", "January", "February"]
-primavera = ["March", "April", "May"]
-verano = ["June", "July", "August"]
 
-mes = input("Ingresa mes del año: ") 
-def check_season():
+mes = input("Ingresa mes del año: ")
+def check_season(mes):
+
+# otoño = ["September", "October", "November"]
+# invierno = ["December", "January", "February"]
+# primavera = ["March", "April", "May"]
+# verano = ["June", "July", "August"]
+
+# if mes in otoño:
+#     print("Este mes pertenece a la estación de otoño")
+# elif mes in invierno:
+#     print("Este mes pertenece a la estación de invierno")
+# elif mes in primavera:
+#     print("Este mes pertenece a la estación de primavera")
+# elif mes in verano:
+#     print("Este mes pertenece a la estación de verano")
+# else:
+#     print("El mes Pertenece a otra estación del año.")
     return 
 print(check_season())
-# 6. Write a function called calculate_slope which return the slope of a linear equation
-# 7. Quadratic equation is calculated as follows: ax² + bx + c = 0. Write a function which calculates solution set of a quadratic equation, _solve_quadratic_eqn_.
+
+# 6. Write a function called calculate_slope which return the 
+# slope of a linear equation.
+
+
+# 7. Quadratic equation is calculated as follows: ax² + bx + c = 0. 
+# Write a function which calculates solution set of a quadratic equation, 
+# _solve_quadratic_eqn_.
+
+
 # 8. Declare a function named print_list. It takes a list as a parameter and it prints out each element of the list.
+
+
 # 9. Declare a function named reverse_list. It takes an array as a parameter and it returns the reverse of the array (use loops).
 
 # ```py
