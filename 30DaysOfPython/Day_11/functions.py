@@ -1,4 +1,4 @@
-# first_name = input("Escribe tu nombre: ")
+1# first_name = input("Escribe tu nombre: ")
 # last_name = input("Escribe tu apellido: ")
 # def generate_full_name ():
 #     # first_name = 'Asabeneh'
@@ -21,19 +21,19 @@ print(greetings('Asabeneh'))
 ### Exercises: Level 1
 
 # 1. Declare a function _add_two_numbers_. It takes two parameters and it returns a sum.
-def _add_two_numbers_(num1, num2):
-    resultado_suma = num1 + num2
-    return resultado_suma
-print(_add_two_numbers_(3, 5))
+# def _add_two_numbers_(num1, num2):
+#     resultado_suma = num1 + num2
+#     return resultado_suma
+# print(_add_two_numbers_(3, 5))
     
 # 2. Area of a circle is calculated as follows: area = π x r x r. 
 # Write a function that calculates _area_of_circle_.
 # Al quere agregar un input, éste debe estar antes de la function y se debe quitar el argumento del print final.
-x = int(input("Ingresa el radio de tu circulo: "))
-def _area_of_circle_():
-    area_circle = 3.14 * x * x
-    return area_circle
-print("El área del circulo es:",(_area_of_circle_()))
+# x = int(input("Ingresa el radio de tu circulo: "))
+# def _area_of_circle_():
+#     area_circle = 3.14 * x * x
+#     return area_circle
+# print("El área del circulo es:",(_area_of_circle_()))
 # print(_area_of_circle_())
 
 # 3. Write a function called add_all_nums which takes arbitrary number of arguments 
@@ -53,25 +53,26 @@ print(_convert_c_to_f_(40))
 # season: Autumn, Winter, Spring or Summer.
 
 mes = input("Ingresa mes del año: ")
-def check_season(mes):
 
-# otoño = ["September", "October", "November"]
-# invierno = ["December", "January", "February"]
-# primavera = ["March", "April", "May"]
-# verano = ["June", "July", "August"]
-
-# if mes in otoño:
-#     print("Este mes pertenece a la estación de otoño")
-# elif mes in invierno:
-#     print("Este mes pertenece a la estación de invierno")
-# elif mes in primavera:
-#     print("Este mes pertenece a la estación de primavera")
-# elif mes in verano:
-#     print("Este mes pertenece a la estación de verano")
-# else:
-#     print("El mes Pertenece a otra estación del año.")
-    return 
-print(check_season())
+# def check_season():
+#     # estacion = {
+#     otono = ["September", "October", "November"]
+#     # invierno = ["December", "January", "February"]
+#     # primavera = ["March", "April", "May"]
+#     # verano = ["June", "July", "August"]
+# # }
+#     if mes in otono:
+#         print("Este mes pertenece a la estación de otoño")
+#     # elif mes in invierno:
+#     #     print("Este mes pertenece a la estación de invierno")
+#     # elif mes in primavera:
+#     #     print("Este mes pertenece a la estación de primavera")
+#     # elif mes in verano:
+#     #     print("Este mes pertenece a la estación de verano")
+#     else:
+#         print("El mes pertenece a otra estación del año.")
+#     # return estacion1
+# print(check_season())
 
 # 6. Write a function called calculate_slope which return the 
 # slope of a linear equation.
@@ -80,7 +81,11 @@ print(check_season())
 # 7. Quadratic equation is calculated as follows: ax² + bx + c = 0. 
 # Write a function which calculates solution set of a quadratic equation, 
 # _solve_quadratic_eqn_.
+def _solve_quadratic_eqn_(a, b, x, c):
+    quadratic_eq = (a*x)**2 + (b*x) + c
 
+    return quadratic_eq
+print(_solve_quadratic_eqn_(20, 3, 2, 26))
 
 # 8. Declare a function named print_list. It takes a list as a parameter and it prints out each element of the list.
 

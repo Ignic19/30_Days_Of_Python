@@ -1,22 +1,22 @@
 ## 💻 Exercises: Day 10
 
-print("Exercises: Level 1")
+# print("Exercises: Level 1")
 
-ejercicio1 = ("1. Iterate 0 to 10 using for loop, do the same using while loop.")
-print(ejercicio1)
-for number1 in range(1, 11, 1):
-    print(number1)
+# ejercicio1 = ("1. Iterate 0 to 10 using for loop, do the same using while loop.")
+# print(ejercicio1)
+# for number1 in range(1, 11, 1):
+#     print(number1)
 
-ejercicio2 = ("2. Iterate 10 to 0 using for loop, do the same using while loop.")
-print(ejercicio2)
-for number2 in range(10, 0, -1):
-    print(number2)
+# ejercicio2 = ("2. Iterate 10 to 0 using for loop, do the same using while loop.")
+# print(ejercicio2)
+# for number2 in range(10, 0, -1):
+#     print(number2)
 
 # 3. Write a loop that makes seven calls to print(), so we get on the output the following triangle:
    
-n = int(input("Introduce el número de reglones: "))
-for i in range(n+1):
-    print('#'*i)
+# n = int(input("Introduce el número de reglones: "))
+# for i in range(n+1):
+#     print('#'*i)
 
      #
      ##

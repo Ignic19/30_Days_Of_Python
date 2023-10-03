@@ -14,14 +14,14 @@ student = {
 'last_name': 'Canales', 
 'gender': 'male', 
 'age': 26, 
-'marital_status':'single', 
+'marital_status':'merried', 
 'skills': ['HTML','CSS','Python','SQL'],
 'country':'Chile', 
 'city':'Santiago', 
 'address':{
 	'calle': 'Manuel Rojas',
 	'numeracion': '10465'
-}
+	}
 }
 print(student)
 
